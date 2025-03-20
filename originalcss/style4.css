@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.min{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Calibri' ,sans-serif;
+    line-height: 50px;
+    background: url(upper.jpg);
+    background-size: cover    ;
+    
+    background-position: center;
+    color: rgb(0, 0, 0);
+    flex-basis: 31%;
+    background: #cffcff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.min:hover{
+    box-shadow: 0 0 50px 0px rgb(180, 255, 177);
+}
+h1{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-size: cover;
+    background-position: center;
+
+    font-family: sans-serif;
+}
+
+
+.menu-bar{
+    background: rgb(37, 37, 37);
+    text-align: center;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover{
+    background: rgba(4, 255, 58, 0.6);
+    border-radius: 3px;
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+
+}
+
+
+.sub-menu-1{
+    display: none;
+
+}
+
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgba(37, 37, 37);
+    margin-top: 15px;
+    margin-left: -15px;
+    
+
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+    
+}
+
+.sub-menu-1 ul li:hover{
+    background: #b2ff00;
+    border: 1px none;
+    transition: 0s;
+}
+
+.fa-angle-right{
+    float: right;
+}
+
+
+
+
+
+/* Basic styles for the gallery */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item img {
+    width: 460px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
